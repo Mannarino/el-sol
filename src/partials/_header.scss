@@ -1,0 +1,44 @@
+header {
+  background-color: #1b2127;
+  .container{
+  	  display: flex;
+	  max-width: 1000px;
+	  margin: auto;
+	  justify-content:space-between;
+	  .logo{
+	  	display: flex;
+	  	align-items:center;
+	  	img{
+	  		height: 80px;
+	  	}
+	  	p{
+	  	font-size: 22px;
+	  	color: white;
+	  	line-height: 80px;
+	  	}
+	  }
+	  .menu{
+	  	ol{
+	  		display: flex;
+	  		align-items:center;
+	  		margin: 0px;
+	  		height: 100%;
+	  		padding: 0;
+	  		list-style: none;
+	  		li{
+	  			margin: 0 5px;
+	  			width: 160px;
+	  			text-align: right;
+	  			a{
+			  	color: white;
+			  	text-decoration: none;
+			  	transition:1s;
+			  	&:hover{
+			    	color: #FF4500;
+			    	}
+			    }
+	  		}
+	  	}
+      }
+     }
+}

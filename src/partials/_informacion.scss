@@ -1,0 +1,26 @@
+
+#informacion-sol{
+	max-width: 1000px;
+	margin: auto;
+	.informacion{
+		border: 1px solid gray;
+	  	border-radius: 10px;
+	  	margin-bottom: 15px;
+	  	padding: 20px;
+	    background: white;
+	    display: flex;
+	    align-items: center;
+	    justify-content: space-between;
+	    flex-wrap: wrap;
+	    .informacion-details{
+	    	width: 48%;
+	    }
+	    .informacion-imageContainer{
+	    	width: 48%;
+	    	img{
+	    		width: 100%;
+	    		border-radius: 5px;
+	    	}
+	    }
+	}
+}
